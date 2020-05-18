@@ -1,8 +1,9 @@
-# GIT -  VERSIONAMENTO
+# GIT - VERSIONAMENTO
 
 - SERVE PRA SALVAR TRABALHOS DO DIA ANTERIOR
 
 COMANDOS:
+
 ```
 - cd /mnt/[UNIDADE]
 - mkdir [NOME DA PASTA]
@@ -12,7 +13,7 @@ COMANDOS:
 ```
 
 ```
-ARQUIVOS .md 
+ARQUIVOS .md
 md = MARKDOWN
 ```
 
@@ -38,6 +39,7 @@ git log = [saber mais informações, todos os registros de commit]
 
 Ctrl+Shift+K = limpa tudo no hyper.
 ```
+
 - GITHUB - LOCAL FREE PRA GUARDAR O CÓDIGO
 
 COMANDOS:
