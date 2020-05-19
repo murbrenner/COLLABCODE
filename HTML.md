@@ -20,8 +20,10 @@ DEFINIÇÃO DE TÍTULOS
 <h1>...</h1>
 
 TAG DE ÂNCORA = A
+<a></a>
+
 HREF: ATRIBUTO DE LINK DA ÂNCORA
-USAR PARA LINKS, ALGO CLICÁVEL
+USAR PARA LINKS, ALGO CLICÁVEL E Q MUDA DE PÁGINA
 
 <a href="link"></a>
 
@@ -74,9 +76,43 @@ REL É PRA REFERENCIAR Q O LINK É PARA ESTILO DE PÁGINA
  <link rel="stylesheet" ="header.css">
 </head>
 
+TAG P: PARÁGRAFO (loren = texto aleatorio grande)
+<p>loren...</p>
+
+ID = IDENTIFICADOR ÚNICO (DENTRO DE UMA TAG)
+<a id="item"></a>
+
+CLASS: TAG FLEXÍVEL - USAR VARIAS VEZES EM MULTIPLAS TAGS
+<a class="nomedaclass"></a>
+<dd class="nomedaclass"></dd>
+<h1 class="nomedaclass"></h1>
+
+BUTTON - TAG PRA BOTÃO MAS SEM MUDAR DE PÁGINA
+<button></button>
+
+DIV - NÃO SE REFERE A NADA, SERVE APENAS PARA DIVIDIR DE FORMA VISUAL A PÁGINA
+<div></div>
+
+
+
 ```
 
+- OBSERVAÇÕES:
+
+```
 - RESET CSS : INSERIR NO HEAD COMO LINK REL="" COMO PRIMEIRO ARQUIVO CSS A SER LIDO
+
+PEGAR FONTE NO GOOGLE FONTS: INSERIR NO <HEAD>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+UMA CLASS NO HTML SE SEPARA SÓ POR ESPAÇOS:
+<a class="class1 class2"></a>
+
+
+
+```
+
+- RESET.CSS
 
 ```
 /* http://meyerweb.com/eric/tools/css/reset/
