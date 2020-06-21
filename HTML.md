@@ -108,6 +108,11 @@ BORDER RADIUS - ARREDONDA OS CANTOS
 border-top-right-radius: 100px;
 border-bootom-right-radius: 100px;
 
+TAG INPUT: ENTRAR COM TECLADO (DADOS)
+-DA PRA ESPECIFICAR O CAMPO USANDO A TAG TYPE (E-MAIL, TELEFONE, BUSCA)
+TAG PLACEHOLDER = INDICA OQ ESTARÁ PREVIAMENTE ESCRITO NO CAMPO
+<input type="email/search" placeholder="e-mail/busca">
+
 ```
 
 - OBSERVAÇÕES:

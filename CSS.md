@@ -143,6 +143,40 @@ text-transform: uppercase;
 TAMANHO DA LINHA:
 line-height: 100px;
 
+TAG +: SELECIONA O PROXIMO ITEM COM A MESMA CLASS
+.pai > .filho + .item {
+}
+
+CHAMAR A TAG INPUT COM BUSCA DO HTML, NO CSS:
+-PODE USAR SEM DEFINIR A TAG INPUT, TBM FUNCIONA
+.pai > input[type="search"]
+
+CURSOR: A FAMOSA MÃOZINHA DO LINK
+cursor: pointer;
+
+HOVER - AÇÃO QUANDO O MOUSE ESTÁ EM CIMA
+.nomedaclasse:hover {
+}
+
+PROPRIEDADE TRANSITION - FAZ ANIMAÇÃO (CORES)
+transistion: background-color 200ms linear, color 200ms linear;
+
+ACTIVE - AÇÃO QUANDO O MOUSE CLICA
+.nomedaclasse:active {
+}
+
+FOCUS - AÇÃO QUANDO SE APERTA O TAB ATÉ O BOTÃO
+.nomedaclasse:focus {
+}
+
+TRANSFORM SCALE - MUDA O TAMANHO DO OBJETO (EX DO BOTÃO AO CLICAR)
+.botao:active {
+transform: scale(0.9)
+}
+
+
+
+
 ```
 
 - OBSERVAÇÕES:
@@ -172,7 +206,9 @@ CALL TO ACTION - BOTÃO PRINCIPAL A SER CLICADO
 
 A IDEIA DA CLASSE É SER FLEXÍVEL, PODER SER USADA PRA VÁRIOS ELEMENTOS
 
+PADDING DENTRO - MARGIN FORA (OUTROS ELEMENTOS)
 
+O FLOAT TIRA O ELEMENTO DO PAI POR MAIS Q ELE ESTEJA DENTRO NO CÓDIGO HTML
 
 ```
 
