@@ -113,6 +113,9 @@ TAG INPUT: ENTRAR COM TECLADO (DADOS)
 TAG PLACEHOLDER = INDICA OQ ESTARÁ PREVIAMENTE ESCRITO NO CAMPO
 <input type="email/search" placeholder="e-mail/busca">
 
+META DA RESOLUÇÃO DA TELA DO CELULAR, RESPONSIVO
+<meta name="viewport" content="width=device-width">
+
 ```
 
 - OBSERVAÇÕES:
